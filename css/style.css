@@ -1,0 +1,1095 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+body{
+    overflow-x: hidden;
+}
+/*Start Header*/
+
+.header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    position: relative;
+    margin-top: 1%;
+}
+
+.header .header-container nav{
+    width: 40%;
+}
+
+.header .header-container nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.header .header-container nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.header .banner{
+    position: absolute;
+    width: auto;
+    top: -3rem;
+    right: -10%;
+
+}
+
+.header .banner .box{
+    animation: spin 20s ease-in-out infinite;
+    width: auto;
+}
+
+
+.header .banner .box img{
+    width: 90%;
+}
+
+@keyframes spin {
+  50% {
+    background: url(/img/Vector.svg) right/ no-repeat;
+    background-position: right;
+    
+    background-repeat: no-repeat;
+    transform: rotate(5deg);  /* Rotate the background image by 5 degrees */
+  }
+  50% {
+    background: url(/img/Vector.svg) right/ no-repeat;
+    background-position: right;
+    background-repeat: no-repeat;
+    transform: rotate(-5deg);  /* Rotate the background image by -5 degrees */
+  }
+}
+
+@keyframes spin2 {
+    50% {
+      
+      transform: rotate(0deg);  /* Rotate the background image by 5 degrees */
+    }
+    
+  }
+
+
+.header .header-container .icon {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*End Header*/
+/*Start Banner Section */
+
+.banner2 .banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url(/img/header\ image.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    height: 120vh; */
+}
+
+
+.banner2 .banner-container .second,
+.banner2 .banner-container .first{
+    z-index: 5;
+}
+
+.banner2 .banner-container .second img{
+    width: 100%;
+}
+
+.banner2 .banner-container .second{
+    flex-basis: 40%;
+}
+
+.banner2 .banner-container .first{
+    width: 50%;
+    margin-left: 76px;
+}
+
+.banner2 .banner-container .first .button img{
+    margin-right: 5%;
+}
+
+.banner2 .banner-container .first .text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #505056;
+}
+
+/*End Banner Section */
+
+
+/*Start Check Section */
+
+.check {
+    position: relative;
+}
+
+.check .head{
+    text-align: center ;
+    position: relative;
+}
+
+.check .img{
+    position: absolute;
+    width: 38%;
+    top: 18%;
+}
+
+
+.check .img img{
+    width: 100%;
+}
+
+.check .head  h1{
+font-weight: 700;
+font-size: 56px;
+line-height: 120%;
+letter-spacing: -0.01em;
+color: #0E1133;
+}
+
+
+.check .head p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #505056;
+}
+
+.check .second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.check .second .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    flex-basis: 27%;
+}
+
+
+
+
+.check .second #box h4{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: #fff;
+    margin: 7% 0;
+}
+
+.check .second #box p{
+
+font-weight: 400;
+font-size: 18px;
+line-height: 155%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #fff;
+}
+
+
+.check .second .box h4{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: #0E1133;
+    margin: 7% 0;
+}
+
+.check .second .box p{
+
+font-weight: 400;
+font-size: 18px;
+line-height: 155%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #505056;
+}
+
+
+
+/*End Check Section */
+
+/*Start Join Section */
+
+.join{
+    margin-top: 20%;
+    padding: 95px 0px;
+}
+
+.join .head{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #667085;
+}
+
+.join .logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+/*End Join Section */
+
+/*Start Customer Section */
+
+.customer{
+    margin-top: 5%;
+}
+
+.customer .customer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.customer .customer-container .first{
+    flex-basis: 40%;
+}
+
+.customer .customer-container .first .head h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+}
+
+.customer .customer-container .first .head p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    margin: 7% 0;
+}
+
+.customer .customer-container .first .content .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer .customer-container .first .content .box .text{
+    margin-left: 5%;
+}
+
+
+
+.customer .customer-container .first .content .box .text h4{
+    font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: -0.01em;
+color: #0E1133;
+margin-bottom: 5%;
+}
+
+.customer .customer-container .first .content .box .text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #505056;
+}
+
+
+
+.customer .customer-container .second{
+    position: absolute;
+    right: -8%;
+    width: 55%;
+}
+
+.customer .customer-container .second img{
+    width: 100%;
+}
+
+/*End Customer Section */
+
+/*Start Clint Section */
+
+.clint{
+    background-image: url(/img/image\ 12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 5%;
+}
+
+.clint .clint-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.clint .clint-container .box{
+    margin-top: 8%;
+}
+
+.clint .clint-container .box h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.clint .clint-container .box p{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+/*End Clint Section */
+
+/*Start Phone Section */
+
+.phone{
+    margin-top: 5%;
+}
+
+
+.phone .head h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    margin-bottom: 3%;
+}
+
+
+.phone .head .box {
+    text-align: -webkit-center;
+}
+
+.phone .head .box p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #505056;
+    width: 50%;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination {
+    position: relative;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+    font-size: 30px;
+}
+
+
+
+
+/*End Phone Section */
+
+
+/*Start Plan Section */
+.plan{
+    margin-top: 5%;
+}
+
+.plan .head h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #0E1133;
+}
+
+.plan .head .box{
+    text-align: -webkit-center;
+}
+
+.plan .head .box p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #505056;
+    width: 50%;
+}
+
+.plan .content {
+    display: flex;
+    margin-top: 5%;
+
+}
+
+.plan .content>.box{
+    padding: 53.3333px 32px;
+gap: 53.33px;
+
+width: 405.33px;
+height: auto;
+
+/* Shades/White */
+
+background: #FFFFFF;
+border-radius: 5.33333px;
+}
+
+.plan .content .box1{
+    padding: 53.3333px 32px;
+gap: 53.33px;
+
+width: 405.33px;
+height: auto;
+background: #007AFF;
+box-shadow: 0px 13.3333px 33.3333px #CCD9FF;
+border-radius: 16px;
+}
+
+.plan .content .box .text h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #191D23;
+}
+
+.plan .content .box1 .text h1{
+    font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+letter-spacing: -0.01em;
+
+/* Shades/White */
+
+color: #FFFFFF;
+}
+
+
+
+.plan .content .box .text p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+letter-spacing: 0.02em;
+
+/* Besic App/Body color */
+
+color: #505056;
+margin: 5% 0;
+}
+
+.plan .content .box1 .text p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 155%;
+letter-spacing: 0.02em;
+color: #F7F8F9;
+}
+
+.plan .content .box .cost p{
+    display: inline;
+    font-weight: 700;
+font-size: 56px;
+line-height: 120%;
+letter-spacing: -0.01em;
+color: #191D23;
+}
+
+
+.plan .content .box1 .cost p{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;    
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    display: inline;
+}
+
+.plan .content .box1 .cost span{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 155%;
+    color: #F7F8F9;
+}
+
+.plan .content .box1 .cost button{
+    padding: 8px 16px;
+    width: 341.33px;
+    height: 58.67px;  
+    margin-top: 5%;  
+    background: #FFFFFF;
+    border-radius: 5.33333px;
+    border: #fff;
+}
+
+.plan .content .box .cost span{
+    font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+
+/* Neutral / 600 */
+
+color: #4B5768;
+}
+
+
+.plan .content .box  button{
+    padding: 8px 16px;
+width: 341.33px;
+height: 58.67px;  
+color: #007AFF;
+margin-top: 5%;
+border: 2px solid #007AFF;
+background-color: transparent;
+border-radius: 5.33333px;
+}
+.plan .content .box1 .option .box p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+/* identical to box height, or 25px */
+
+letter-spacing: 0.02em;
+
+/* Shades/White */
+
+color: #FFFFFF;
+}
+
+.plan .content .box .option .box p ,
+.plan .content .box1 .option .box p{
+    margin-left: 10px;
+    
+}
+
+.plan .content .box .option .box ,
+.plan .content .box1 .option .box{
+    display: flex;
+    align-items: center;
+    margin-top: 8%;
+}
+
+
+
+/*End Plan Section */
+
+
+/*Start Feed Section */
+
+.feed{
+    margin-top: 5%;
+    padding: 100px 0;
+    background: #F2F5F8;
+}
+
+.feed .feed-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.feed .feed-container .first{
+    flex-basis: 40%;
+}
+
+.feed .feed-container .second{
+    flex-basis: 35%;
+}
+
+.feed .feed-container .first .head h1{
+    font-weight: 700;
+    font-size: 42.6667px;
+    line-height: 120%;
+    color: #0E1133;
+}
+
+.feed .feed-container .first .head p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #505056;
+}
+
+.feed .feed-container .first .head button{
+    padding: 10.6667px 21.3333px;
+    width: 187px;
+    height: 56px;
+    border: 0.888889px solid #007AFF;
+    border-radius: 4px;
+    background: transparent;
+
+}
+
+.feed .feed-container .first .head span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.feed .feed-container .second .box .star{
+    color: #FBAF5B;
+}
+
+.feed .feed-container .second .box{
+    margin-top: 5%;
+} 
+
+.feed .feed-container .second .box p{
+    margin: 3% 0;
+}
+
+.feed .feed-container .second .box p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+letter-spacing: 0.02em;
+color: #505056;
+}
+
+
+.feed .feed-container .second .box .name {
+    display: flex;
+    align-items: center;
+}
+
+.feed .feed-container .second .box .name .box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+
+.feed .feed-container .second .box .name .box p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #0E1133;
+}
+
+/*End Feed Section */
+
+
+/*Start Ask Section */
+
+.ask{
+    margin-top: 5%;
+}
+
+.ask .head{
+    text-align: -webkit-center;
+}
+
+.ask .head h1{
+    font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+text-align: center;
+
+/* Besic App/Body color */
+
+color: #0E1133;
+}
+
+
+.ask .head p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    width: 45%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #505056;
+    margin-top: 2%;
+}
+
+
+.ask .ask-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.ask .ask-container .first,
+.ask .ask-container .second {
+    flex-basis: 45%;
+}
+
+.ask .ask-container .first .box,
+.ask .ask-container .second .box{
+    padding: 19.5122px 23.4146px;
+    width: 100%;
+    height: 70.24px;
+    border: 0.97561px solid #505056;
+    border-radius: 4px;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ask .ask-container .first .box p,
+.ask .ask-container .second .box p{
+    font-weight: 700;
+    font-size: 17.561px;
+    line-height: 150%;
+    color: #505056;
+    margin: 0;
+}
+
+.ask .still{
+    text-align: -webkit-center;
+    margin-top: 5%;
+}
+
+.ask .still button{
+    padding: 10.6667px 21.3333px;
+    width: 187px;
+}
+
+/*End Ask Section */
+
+.app{
+    margin-top: 15%;
+    padding: 5% 0   ;
+    background: #007AFF;
+}
+
+.app .app-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app .app-container .first{
+    flex-basis: 50%;
+}
+
+.app .app-container .first h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.app .app-container .first p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+letter-spacing: 0.02em;
+
+/* Besic App/#FFFFFF */
+
+color: #FFFFFF;
+}
+
+
+.app .app-container .second{
+    flex-basis: 100%;
+    position: relative;
+    top: 10%;
+}
+
+.app .app-container .second img{
+    width: 100%;
+    position: absolute;
+    top: -26rem;
+}
+
+@media(max-width: 1400px){
+    .check .second .box{
+        flex-basis: 35%;
+    }
+}
+
+
+@media(max-width: 1200px){
+    .customer .customer-container .first{
+        flex-basis: 50%;
+    }
+
+    .plan .content{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .ask .ask-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ask .ask-container .first,
+    .ask .ask-container .second{
+        flex-basis: 50%;
+    }
+
+    .ask .ask-container .first .box,
+    .ask .ask-container .second .box{
+        width: 100%;
+    }
+}
+
+
+
+@media(max-width: 992px){
+    .header .header-container nav{
+        display: none;
+    }
+
+    .header .header-container .icon{
+        display: none;
+    }
+
+    .check .second {
+        flex-wrap: wrap;
+    }
+
+    .check .second .box{
+        flex-basis: 40%;
+    }
+
+    .check .second #box h4{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        color: #0E1133;
+        margin: 7% 0;
+    }
+    
+    .check .second #box p{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #505056;
+    }
+
+    .check .second .box1{
+        flex-basis: 40%;
+        color: #000;
+    }
+
+    .check .img img{
+        display: none;
+    }
+
+
+    .join .logos{
+        flex-wrap: wrap;
+    }
+
+    .customer .customer-container .second{
+        display: none;
+    }
+
+    .customer .customer-container .first{
+        flex-basis: 100%;
+    }
+
+    .feed .feed-container .first{
+        flex-basis: 50%;
+    }
+
+    .ask .ask-container .first,
+    .ask .ask-container .second{
+        flex-basis: 100%;
+    }
+
+    .app .app-container{
+        flex-wrap: wrap;
+    }
+    .app .app-container .first{
+        flex-basis: 100%;
+    }
+
+    .app .app-container .second img{
+        position: relative;
+        top: 0;
+    }
+    
+}
+
+
+@media(max-width: 768px){
+    .banner2 .banner-container{
+        flex-wrap: wrap;
+    }
+
+    .banner2 .banner-container .first{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        margin: 7% 0;
+    }
+
+    .banner2 .banner-container .second{
+        display: none;
+    }
+    .check .second .box{
+        flex-basis: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .join .logos .box{
+        flex-basis: 100%;
+        text-align: -webkit-center;
+        margin-bottom: 5%;
+    }
+
+    .clint .clint-container{
+        flex-wrap: wrap;
+    }
+
+    .clint .clint-container .box{
+        flex-basis: 100%;
+    }
+
+    .clint{
+        height: auto;
+    }
+    .feed .feed-container{
+        flex-wrap: wrap;
+    }
+
+    .feed .feed-container .first{
+        flex-basis: 100%;
+    }
+
+    .feed .feed-container .second{
+        flex-basis: 100%;
+    }
+
+    .ask .head p{
+        width: 100%;
+    }
+
+
+
+    
+}
+
+
+
+@media(max-width: 576px){
+    .check .head h1{
+        font-size: 40px;
+    }
+
+    .phone .head h1{
+        font-size: 35px;
+    }
+
+    .phone .head .box p{
+        width: 100%;
+    }
+
+    .app .app-container .first h1{
+        font-size: 40px;
+    }
+
+    .plan .content>.box,
+    .plan .content .box1 {
+        width: 100%;
+        height: auto;
+    }
+
+    
+    .plan .content .box button,
+    .plan .content .box1 .cost button{
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+
+@media(max-width: 355px){
+    
+}
+
+
